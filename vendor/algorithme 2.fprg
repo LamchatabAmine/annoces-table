@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Solicode"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-03 08:59:11 "/>
+        <attribute name="created" value="U29saWNvZGU7REVTS1RPUC00T0xDUURHOzIwMjItMTAtMDM7IjA4OjM3OjAzICI7MzA4MQ=="/>
+        <attribute name="edited" value="U29saWNvZGU7REVTS1RPUC00T0xDUURHOzIwMjItMTAtMDM7IjA4OjU5OjExICI7MTszMTky"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <output expression="&quot;entre x&quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;entre y&quot;" newline="True"/>
+            <input variable="y"/>
+            <if expression="x &gt; 0">
+                <then>
+                    <if expression="y &gt; 0">
+                        <then>
+                            <output expression="&quot;positive&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;negative&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="y &lt; 0">
+                        <then>
+                            <output expression="&quot;negative&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;positive&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
